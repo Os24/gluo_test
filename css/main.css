@@ -1,0 +1,179 @@
+body {
+  background-color: #f4f6fc; }
+
+.separator {
+  width: 340px;
+  height: 2px;
+  background-color: #eff2ff;
+  position: absolute;
+  top: 65px; }
+
+.container-card {
+  width: 343px;
+  height: 91px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
+  background-color: #ffffff; }
+  .container-card .user-avatar-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin: 16px; }
+  .container-card .data {
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    margin: 10px; }
+  .container-card .name {
+    width: 123px;
+    height: 19px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e384d;
+    margin-bottom: 3px; }
+  .container-card .phone {
+    width: 100px;
+    height: 22px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #8798ad; }
+  .container-card i {
+    border: solid #2e5bff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    right: 50px;
+    top: 40px; }
+  .container-card .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
+
+.container-card-2 {
+  width: 343px;
+  height: 279px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
+  background-color: #ffffff; }
+  .container-card-2 .info-container {
+    position: absolute;
+    padding: 16px; }
+    .container-card-2 .info-container .price {
+      width: 112px;
+      height: 74px;
+      font-family: Rubik;
+      font-size: 42px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #8c54ff;
+      margin-top: 10px; }
+    .container-card-2 .info-container .price-limit-text {
+      width: 237px;
+      height: 40px !important;
+      font-family: Rubik;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #8798ad;
+      margin-top: -12px; }
+  .container-card-2 .plan-title {
+    width: 126px;
+    height: 18px;
+    margin-bottom: 8px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e384d; }
+  .container-card-2 .plan-detail {
+    width: 173px;
+    height: 18px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8798ad; }
+  .container-card-2 span {
+    position: absolute;
+    background-color: #2e5bff;
+    border-radius: 5px;
+    font-size: 0;
+    margin-left: 20px;
+    padding: 2px;
+    right: 43px;
+    top: 25px; }
+  .container-card-2 span:before {
+    position: absolute;
+    left: 6px;
+    top: 0;
+    content: '';
+    background-color: #2e5bff;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px; }
+  .container-card-2 span:after {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    content: '';
+    background-color: #2e5bff;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px; }
+  .container-card-2 .pay-btn {
+    width: 311px;
+    height: 46px;
+    border-radius: 3px;
+    background-color: #2e5bff;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    color: #ffffff; }
+  .container-card-2 .total-title {
+    width: 95px;
+    height: 18px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e384d;
+    margin-top: 25px; }
+
+.container-card-3 {
+  width: 343px;
+  height: 230px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
+  background-color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */
